@@ -1,0 +1,6 @@
+[submodule "ldap"]
+	path = ldap
+	url = https://github.com/kinflate/ldap
+[submodule "phpldapadmin"]
+	path = phpldapadmin
+	url = https://github.com/kinflate/phpldapadmin

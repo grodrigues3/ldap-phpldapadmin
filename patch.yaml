@@ -1,0 +1,12 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: phpldapadmin-deployment
+spec:
+  template:
+    spec:
+      containers:
+        - name: phpldapadmin
+          env:
+            - name: PHPLDAPADMIN_LDAP_HOSTS
+              value: "ldap-service"

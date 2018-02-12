@@ -15,7 +15,7 @@ phpldapadmin-service
 
 Next open phpldapadmin UI by https://<external_ip>:443, where the external_ip can be get by
 
-`kubectl get service -o yaml | grep "ip"`
+`kubectl get service phpldapadmin-service -o yaml | grep "ip"`
 
 Now login by
 

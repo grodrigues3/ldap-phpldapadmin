@@ -1,4 +1,6 @@
-# Deploy ldap server with phpldapadmin UI to Kubernetes
+# Test the new PR CLA check
+
+Deploy ldap server with phpldapadmin UI to Kubernetes
 
 `kinflate inflate -f . | kubectl apply -f -`
 
